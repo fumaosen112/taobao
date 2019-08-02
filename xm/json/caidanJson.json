@@ -1,0 +1,49 @@
+{
+  "breakfast_menu": {
+    "food": [
+      {
+        "srcc": "../img/ff2.jpg",
+        "name": "华硕游戏键盘",
+        "title":"9代I7-9750H/GTX1650 显卡",
+        "price": "$19000",
+        "description": "two of our famous Belgian Waffles with plenty of real maple syrup",
+        "calories": "650"
+        
+      },
+      {
+        "srcc":"../img/ff19.jpg",
+        "name": "华硕主机",
+        "title":"9代I7-9750H/GTX1650 显卡",
+        "price": "$2095",
+        "description": "light Belgian waffles covered with strawberries and whipped cream",
+        "calories": "900"
+      },
+      {
+        "srcc":"../img/ff18.jpg",
+        "name": "华硕路由器",
+        "title":"9代I7-9750H/GTX1650 显卡",
+        "price": "$195",
+        "description": "light Belgian waffles covered with an assortment of fresh berries and whipped cream",
+        "calories": "900"
+      },
+      {
+        "srcc":"../img/ff4.jpg",
+        "name": "华硕商务鼠标",
+        "title":"9代I7-9750H/GTX1650 显卡",
+        "price": "$48",
+        "description": "thick slices made from our homemade sourdough bread",
+        "calories": "600"
+      },
+      {
+        "srcc":"../img/ff1.jpg",
+        "name": "华硕商务",
+        "title":"9代I7-9750H/GTX1650 显卡",
+        "price": "$15295",
+        "description": "two eggs, bacon or sausage, toast, and our ever-popular hash browns",
+        "calories": "950"
+       
+      }
+     
+    ]
+  }
+}

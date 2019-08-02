@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>华硕登录注册界面</title>
+		<link rel="stylesheet" type="text/css" href="../css/record.css"/>
+	</head>
+	<body>
+		<div class="nav">
+			<img src="../img/hualog.jpg"/>
+		</div>
+		<div class="body">
+			<img src="../img/13394650505148.jpg"/>
+			<div class="record">
+				<p style="text-align: center;font-size: 24px; margin-top:50px;">
+					<a href="#" style="padding-right: 20px;">验证码登录</a>
+					<i></i>
+					<a href="#" style="padding-left: 20px; color: gray;">账号登录</a>
+				</p>
+				<!-- <form action="record.php method="post" style="text-align: center;"> -->
+					
+					<input type="text" value="" name='usename' style="height: 50px;width: 261px ;margin-top: 20px;margin-bottom: 20px; padding-left: 5px;margin-left: 26px" placeholder="账号"  id='use'/>
+					<span id="record_span" style="width: 350px;height: 50px; ">
+						<input type="password" value=""  name='usepass' style="height: 50px;width: 260px;  padding-left: 5px; float: left;margin-left: 26px;" placeholder="密码" id='pass'/>
+						<a href="#" style="color: gray;" id="aa"></a>
+					</span>
+					
+				<!-- </form> -->
+				<span id="record_Den">
+						立即登录
+					</span>
+					<ul class="record_list">
+						<li><a href="#" style="color: #666666;">企业用户注册</a>
+						</li>
+						<li>
+							<a href="Login.html" style="color: #666666;">注册ASUS账号|</a>
+						</li>
+						<li>
+							<a href="#" style="color: #666666;">忘记密码</a>
+						</li>
+					</ul>
+					<h4>你可使用的社交账号</h4>
+					<div class="record_foot">
+						<div class="record_right"></div>				
+                        <div class="record_left"></div>
+                        <span id="record_footSpan" style="margin-top: 10px;">
+                        	直接登录
+                        	<a href="#">ASUS会员</a>
+                        	,无需注册
+                        </span>
+                        <a href="#" id="record_weChat"> <img src="../img2/weixin.png"/></a>
+                       
+					</div>			
+			</div>
+			
+		</div>
+	</body>
+</html>
+<script>
+// document.getElementById('record_Den')
+$('record_Den').onclick=function(){
+		// alert("p");
+//	     创建一个对象	
+     let xhr=new XMLHttpRequest();
+ //设置请求参数
+ //get的传参方式
+ let sendstr = `usename=${$("use").value}&usepass=${$("pass").value}`;
+     xhr.open("GET","record.php?"+sendstr,true);
+     //设置响应事件
+	//  console.log("+$('use').value+"&usepass"+"$('pass').value");
+	xhr.onreadystatechange=function(){
+		if(xhr.readyState==4 && xhr.status==200){
+            console.log(xhr.responseText);
+			if(xhr.responseText==1){
+				// header('Location: hsIndex.html');
+				document.location.href = "hsIndex.html";
+                // $('#little').style.color ="red";
+                // $('#little').innerHTML = "不好意思，该用户名被人用了";
+			}else{
+              $('aa').innerHTML="密码错误";
+			  $('aa').style.color='red';
+			    
+			}
+		}
+		}
+		xhr.send()
+	}
+function $(name){
+return document.getElementById(name);
+}
+</script>

@@ -1,0 +1,109 @@
+#show_meddleBig{
+    width: 100%;
+    height: 1400px;
+    background-color: #f2f2f2;
+    float: left;
+}
+#show_meddle{
+    width: 1227px;
+    height: 100%;
+    background-color: gold;
+    margin: 0 auto;
+   
+
+}
+#show_meddleTop{
+    float: left;
+    width: 1227px;
+    height: 35px;
+    margin: 0 auto;
+    /* background-color: red; */
+    margin: 30px  0 30px 0;
+    line-height: 35px;
+    position: relative;
+}
+.show_show{
+    position: absolute;
+    width: 408px;
+    height: 118px;
+    border: 1px solid blue;
+    background-color: aqua;
+    left: 58px;
+    top: 34px;
+    display: none;
+}
+.show_show1{
+    position: absolute;
+    width: 408px;
+    height: 118px;
+    border: 1px solid blue;
+    background-color: aqua;
+    left: 170px;
+    top: 34px;
+    display: none;
+}
+
+#show_meddleSpan{
+    width: 100px;
+    height: 33px;
+    /* background-color: green; */
+    float: left;
+    line-height: 35px;
+    margin-left: 10px;
+    border: 1px solid gray;
+}
+#show_meddleI{
+    float: right;
+    width: 20px;
+    height: 20px;
+    /* background-color: greenyellow; */
+    /* margin-top: 50%; */
+    margin-top:7px;
+    line-height: 20px;
+    transform: rotateZ(90deg);
+}
+#show_meddleSpan:hover .po{
+    transform: rotateZ(270deg);
+}
+
+#show_Date{
+    width: 1227px;
+    height: 300px;
+    background-color: rebeccapurple;
+    float: left;
+}
+
+#show_Date1{
+    width: 1227px;
+    /* height: 300px; */
+    background-color: pink;
+    float: left;
+}
+.show_Date1{
+    height: 300px;
+}
+#show_button{
+    width: 200px;
+    height: 50px;
+    margin-left: 500px;
+    background-color:red;
+    float: left;
+    line-height: 50px;
+    /* text-align: center; */
+    cursor: pointer;
+}
+#show_button div{
+    float: left;
+    /* margin-right: 50px; */
+   
+}
+#show_button a{
+    display: block;
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-left: 45px;
+}
+#show_button:hover .show_jian{
+    transform: rotateZ(180deg);
+}

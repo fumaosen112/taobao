@@ -1,0 +1,348 @@
+.page{
+    width: 100%;
+    height: 30px;
+}
+.show_pag{
+    width: 1227px;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.show_pag a{
+    line-height: 30px;
+    color: black;
+}
+.show_pag a:hover{
+    color: blue;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+    /* background-color: red; */
+}
+.main_center{
+    width: 1227px;
+    height: 1000px;
+    /* background-color:yellow; */
+    margin: 0 auto;
+    /* display: flex; */
+}
+#main_Fbig{
+    width: 500px;
+    height: 1000px;
+    /* background-color: orange; */
+    float: left;
+}
+#main_FbigTop{
+    width: 500px;
+    height: 500px;
+    /* background-color: pink; */
+}
+#main_FbigBottom{
+    width: 500px;
+    height: 100px;
+    /* background-color: green; */
+}
+
+/* 放大镜 */
+#imgList{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+#imgList li img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+}
+#imgList li:nth-child(1) img{
+    z-index: 2;
+}
+#mask{
+    width: 250px;
+    height: 200px;
+    background-color:orange;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: move;
+    z-index: 4;
+    display: none;
+}
+
+#main_FbigBottom img {
+    height: 100px;
+    width: 100px;
+}
+
+#bottom_list {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    /* top: 375px; */
+}
+
+#bottom_list li {
+    float: left;
+}
+#show_box{
+    width: 500px;
+    height: 400px;  /*和mask的宽高2倍关系*/
+    background-image: url(../img2/fd.jpg);
+    float: right;
+    background-position: 0px 0px;
+    background-size: 1000px 1000px;  /*这个和庄图片的容器大小二倍关系*/
+    position: absolute;
+    left: 558px;
+    top:194px;
+    display: none;			
+}
+/* 发大镜 */
+
+.main_pro{
+    width: 720px;
+   height: 830px;
+   float: left;
+   /* background-color: red; */
+}
+.main_proTop{
+    width: 100%;
+    height: 400px;
+    /* background-color: palegreen; */
+}
+.main_proL{
+    width: 500PX;
+    height: 230px;
+    /* background-color: pink; */
+    background-color: #f7f7f7;
+    float: left;
+}
+.main_100{
+    font-size: 80px;
+    color: blue;
+    float: left;
+}
+.main_man{
+    height: 30px;
+    width: 80px;
+    margin-top: 64px;
+    float: left;
+    color: #8b808b;
+  
+}
+.main_proTop p{
+    color: #666666;
+}
+.main_proTop a{
+    color: red;
+    font-size: 20px;
+}
+
+.main_proTime{
+    margin-top: 20px;
+
+    width: 100%;
+    height: 30px;
+    background-color: red;
+    color: white;
+    line-height: 30px;
+}
+.main_time{
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    /* background-color: blue; */
+    float: right;
+
+}
+.main_pic{
+  
+    width: 100%;
+    height: 90px;
+    background-color:#f7f7f7;
+    display: flex;
+    justify-content: space-between;
+}
+.pro_picLeft{
+    height: 90px;
+    flex-basis: 60%;
+    /* background-color: gold; */
+    font-size: 35px;
+    line-height: 90px;
+    
+}
+.pro_picright{
+    height: 90px;
+    flex-basis: 40%;
+    /* background-color:green; */
+}
+.pro_picLeft a{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    float: right;
+   
+}
+.pro_picright .shou{
+    margin-top: 33px;
+width: 100px;
+height: 30px;
+float: right;
+}
+.mian_you{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    /* background-color: gold; */
+}
+.mian_youCenter{
+    width:700px;
+    height: 29px;
+    /* background-color:pink;  */
+    margin:0 auto;
+    border-top: 1px solid gray;
+    line-height: 29px;
+    
+}
+.mian_youCenter span{
+    width: 15px;
+    height: 10px;
+    border-radius: 20%;
+    background-color: red;
+    margin-left: 25px;
+}
+.mian_youCenter i{
+    color: #66668a;
+    /* float: left; */
+}
+.main_peizhi{
+    width: 100%;
+    height: 30px;
+    /* background-color: gold; */
+    line-height:30px;
+}
+.main_ProInfo{
+    width: 100%;
+    height: 30px;
+    /* background-color:green; */
+    line-height:30px;
+}
+.infoA{
+    display: inline-block;
+    float: left;
+    width: 252px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-right: 5px;
+    text-align: center;
+}
+.infoA:hover{
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+.num{
+    width: 150px;
+    height: 30px;
+    /* background-color: red; */
+    display: flex;
+}
+.jian{
+    width: 40px;
+    height: 28px;
+    border: 1px solid gray;
+    text-align: center;
+    cursor: pointer;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.nei{
+flex: 1;
+border: 1px solid gray;
+text-align: center
+}
+.jia{
+    width: 40px;
+    height: 28px;
+    border: 1px solid gray;
+    text-align: center;
+    cursor: pointer;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.main_serve{
+    width: 100%;
+    height: 30px;
+    margin-top: 50px;
+    line-height: 30px;
+}
+.main_sreveLeft{
+    width: 600px;
+    height: 30px;
+
+    float: right;
+    margin-right: 65px;
+}
+.mainList{
+    width: 600px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+   
+}
+.mainList li{
+    float: left;
+    width: 100px;
+    height: 30px;
+    /* background-color: green; */
+    margin-right: 10px;
+
+}
+.mainList a{
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #66668a;
+}
+.main_zhichi{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.main_shop{
+    width: 100%;
+    height: 100px;
+    /* background-color: gold; */
+    margin-top: 60px;
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+#shop{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid gray;
+    border-radius: 5px; 
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+#addshop{
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 50px;
+    background-color:plum;
+    float: left;
+    border-radius: 5px; 
+    cursor: pointer;
+}

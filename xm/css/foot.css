@@ -1,0 +1,133 @@
+/* 底部 */
+#foot{
+    width: 100%;
+    height: 655px;
+    background-color: #fafafa;
+    float: left;
+
+}
+.foot_top{
+    width: 1227px;
+    height: 63px;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+.foot_topList{
+    float: left;
+   margin-top: 18px;
+   width:100%;
+   height: 53px;
+   display: flex;
+   justify-content: space-between;
+   
+
+}
+
+.foot_topList li:nth-child(1){
+    border-left:none;
+}
+
+.foot_topList li{
+    border-left:1px solid #cccccc;
+    text-align: center;
+    line-height: 28px;
+    flex:1;
+    height: 28px;
+    background-color: #fafafa;
+    
+}
+.foot_mddlie{
+    width: 1227px;
+    height: 416px;
+    background-color: #fafafa;
+    /* float: left; */
+    margin:0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot_mddlie1{
+    width: 204px;
+    height: 416px;
+    background-color: #fafafa;
+}
+.foot_List{
+    height: 100%;
+    width: 204px;
+    margin-top: 20px;
+}
+.foot_List a{
+    color: black;
+}
+.foot_List li{
+    height: 24px;
+    width: 204px;
+    /* background-color: blue; */
+}
+.foot_List a:hover{
+       color: blue;
+}
+.foot_dibu{
+    width: 1227px;
+    height: 150px;
+    /* background-color: red; */
+    margin: 0 auto;
+    text-align: center
+}
+.foot_last{
+    width: 1227px;
+    height: 65px;
+    /* background-color: yellow; */
+    margin-top: 62px;
+}
+.foot_last p{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 50px;
+    /* float: left; */
+}
+.foot_last #ll{
+    /* display: inline-block; */
+    width: 80px;
+    height: 50px;
+    /* margin-bottom: 5px; */
+    float: left;
+}
+.foot_last img{
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+}
+.foot_topList a{
+    display: block;
+    width: 30px;
+    height: 28px;
+    background: url(../img/jl.png) no-repeat;
+    /* margin-top: 2px; */
+    /* background-color: red; */
+    float: left;
+    /* margin-top: 5px; */
+    margin-left: 55px;
+
+}
+.foot_topList .a2{
+    background-position:1px -28px;
+}
+.foot_topList .a3{
+    background-position:0px -57px;
+}
+.foot_topList .a4{
+    background-position:1px -91px;
+}
+.foot_topList .a5{
+    background-position:1px -122px;
+}
+.foot_topList p{
+    width: 200px;
+    height: 28px;
+    /* float: left; */
+}

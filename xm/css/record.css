@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.nav{
+	height: 98px;
+	width: 1394px;
+	background-color: white;
+	border-bottom: 1px solid gray;
+	/*line-height: 98px;*/
+
+}
+.nav img{
+	margin-top: 28px;
+	margin-left: 28px;
+}
+.body{
+	width: 1394px;
+	height: 656px;
+	/*background: url(../img2/13394650505148.jpg) no-repeat;*/
+	/*background-size: 100% 100%;*/
+	background-color: #e34c6c;
+	/*background-size:contain;*/
+	position: relative;
+	
+}
+.body img{
+	width: 750px;
+	height: 410px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.record{
+	width: 410px;
+	height: 485px;
+	background-color: white;
+	position: absolute;
+	left:904px;
+	top:82px;
+	/*position: relative*/
+}
+.record i{
+	display: inline-block;
+	width: 2px;
+	height: 20px;
+	background-color: gray;
+}
+
+.record :nth-child(1) :nth-child(3) :hover{
+	color: blue;
+}
+#record_span a{
+	color: gainsboro;
+	line-height: 52px;
+	/*background-color: red;*/
+	text-align: center;
+	float: left;
+	display: block;
+	width: 89px;
+	height: 52px;
+	border-bottom: 1px solid gainsboro;
+	border-top:1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+	/*margin-right: 10px;*/
+}
+#record_Den{
+	width: 350px;
+	height: 50px;
+	background-color: blue;
+	float: left;
+	text-align: center;
+	color: white;
+	line-height: 50px;
+	margin-top: 20px;
+	margin-left: 26px;
+	border-radius: 5px;
+}
+.record_list{
+	float: left;
+	margin-left: 22px;
+	margin-top:10px;
+	
+}
+.record_list li{
+	float: left;
+}
+.record_list :nth-child(2){
+	margin-left: 88px;
+	
+}
+.record h4{
+	color: #666666;
+	float: left;
+	margin-left: 127px;
+	margin-top: 20px;
+}
+.record_foot{
+	width: 410px;
+	height: 114px;
+	/*background-color: red;*/
+	float: left;
+	position: relative;
+	text-align: center;
+
+}
+.record_right{
+	width: 72px;
+	height: 2px;
+	background-color: gray;
+	position: absolute;
+	left: 10px;
+	
+}
+.record_left{
+	width: 72px;
+	height: 2px;
+	background-color: gray;
+	position: absolute;
+	left: 323px;
+	
+}
+#record_weChat{
+	display: block;
+	width: 37PX;
+	height: 37PX;
+	float: left;
+	position: absolute;
+	left: 187px;
+	top: 37px;
+}
+#record_weChat img{
+	width: 37px;
+	height: 37px;
+}

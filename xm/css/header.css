@@ -1,0 +1,78 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: #404040;
+}
+.header_main{
+    width: 1227px;
+    height: 40px;
+    display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+}
+.heade_left{
+   width: 237px;
+   height: 40px;
+   /* margin-left: 60px; */
+   /* float: left; */
+}
+.heade_left a{
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    color: #b2b2b2;
+    line-height: 40px;
+    margin: 0 9px;
+}
+ .header  a:hover {
+    color: white;
+    
+}
+.header_right{
+    width: 405px;
+    height: 40px;
+    /* float: right; */
+    /* margin-right: 60px; */
+    /*background-color: red; */
+}
+.header_rightList :nth-of-type(2){
+         width: 48px;
+         height: 40px;
+}
+.header_rightList :nth-of-type(3) a{
+    width: 57px;
+    height: 40px;
+    margin-left: 25px;
+}
+.header_rightList :nth-of-type(4){
+    width: 120px;
+    height: 40px;
+    background-color: #4c4c4c;
+    margin-left: 20px;
+}
+.header_rightList :nth-of-type(4) a{
+    width: 100px;
+    height: 40px;
+    /* margin-left: 30px; */
+    float: left;
+}
+.header_rightList  li{
+    float: left;
+}
+.header_rightList a{
+    width: 28px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px;
+    color: #b2b2b2;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+}

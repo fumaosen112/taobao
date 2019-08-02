@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../js/lun2.js"></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+    #box{
+      
+        overflow: hidden;
+        border: 1px solid red;
+        width: 1300px;
+        height: 150px;
+        position: fixed;
+     
+    }
+    .nav_to{
+      
+      
+    
+        left: 0;
+        top: 0;
+        z-index: 999;
+       
+      
+    }
+    body{
+        height: 1000px;
+        /* position: relative; */
+    }
+    .jian{
+        width: 100px;
+        height: 20px;
+        background-color: red;
+        float: left;
+    }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+
+
+</body>
+</html>
+<script>
+new blan({
+		imgs:["../img/00.jpg","../img/01.jpg","../img/02.jpg"],
+       
+        width: 1349,
+        height:150,
+      
+    },$("#box"));
+
+
+    window.onscroll=function(){
+    let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+console.log(scrollTop);
+    if(scrollTop>=160){
+        // alert("p");
+        $('#box').className='nav_to';
+    }else{
+        $('#box').className="";
+    }
+}
+
+
+
+</script>
